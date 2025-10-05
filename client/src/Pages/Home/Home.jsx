@@ -13,7 +13,7 @@ function Home() {
     const {socket}=useSelector(state=>state.socketslice)
     // console.log(userprofile?._id)
     // console.log("see dasfad",isauthenticated,userprofile)
-    // const navigate=useNavigate()
+    const navigate=useNavigate()
 
 
     // useEffect(() => {
@@ -24,12 +24,12 @@ function Home() {
     // }, [isauthenticated, navigate]);
 
 
-    //     useEffect(() => {
-    //     if (isauthenticated === false) {
-    //         console.log("🚀 User logged out, navigating to login");
-    //         navigate("/login", { replace: true });
-    //     }
-    // }, [isauthenticated, navigate]);
+        useEffect(() => {
+        if (isauthenticated === false) {
+            console.log("🚀 User logged out, navigating to login");
+            navigate("/login", { replace: true });
+        }
+    }, [isauthenticated, navigate]);
 
     
 
