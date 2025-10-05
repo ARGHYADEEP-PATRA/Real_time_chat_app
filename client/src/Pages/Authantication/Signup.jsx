@@ -34,7 +34,7 @@ function Signup() {
         useEffect(()=>{
             if(isauthenticated)
             {
-                nevigate("/")
+                nevigate("/home")
             }
         },[isauthenticated])
 
@@ -56,7 +56,7 @@ function Signup() {
         // console.log(response)
         if(response?.payload?.success)
         {
-            nevigate("/")
+            nevigate("/home")
         }
     }
 

@@ -27,7 +27,7 @@ const Login = () => {
     useEffect(()=>{
         if(isauthenticated)
         {
-            nevigate("/")
+            nevigate("/home")
             dispatch(getotheruserthunk())
         }
     },[isauthenticated])
@@ -46,7 +46,7 @@ const Login = () => {
       const response=  await dispatch(loginuserthunk(logindata))
         if(response?.payload?.success)
         {
-            nevigate("/")
+            nevigate("/home")
         }
     }
 

@@ -27,7 +27,7 @@ function Home() {
         useEffect(() => {
         if (isauthenticated === false) {
             console.log("🚀 User logged out, navigating to login");
-            navigate("/login", { replace: true });
+            navigate("/", { replace: true });
         }
     }, [isauthenticated, navigate]);
 

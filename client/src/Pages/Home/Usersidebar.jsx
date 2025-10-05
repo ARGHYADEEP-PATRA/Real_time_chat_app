@@ -14,7 +14,7 @@ function Usersidebar() {
        try{
         //  e.preventDefault()
          await dispatch(logoutuserthunk())
-         navigate("/login")
+         navigate("/")
        }catch(err)
        {
         console.log("logout error",err)

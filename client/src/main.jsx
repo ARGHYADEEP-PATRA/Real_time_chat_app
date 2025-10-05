@@ -13,14 +13,14 @@ import Protectedroute from './componants/Protectedroute.jsx';
 const router = createBrowserRouter(
   [
     {
-      path: "/",
+      path: "/home",
       element:
       <Protectedroute> <Home/></Protectedroute>
         
       ,
     },
     {
-      path: "/login",
+      path: "/",
       element:<Login/>,
     },
     {
