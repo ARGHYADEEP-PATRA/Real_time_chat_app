@@ -32,6 +32,12 @@ import userroute from './routes/user.route.js'
 import messageroute from './routes/message.route.js'
 app.use('/api/v1/user',userroute) //middleware  **in middle of request and response middleware are working
 app.use('/api/v1/message',messageroute)
+app.get('/',(req,res)=>{
+      res.send({
+         activestatus:true,
+         error:false,
+      })
+})
  
 
 
