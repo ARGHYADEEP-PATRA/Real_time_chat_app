@@ -1,4 +1,4 @@
-#Gupshup -Real-Time Chat Application
+##Gupshup -Real-Time Chat Application
 
 Gupshup is a real time chat application build using MERN(MongoDB,Express.js,React.js,Node.js) stack and WebSocket technology.
 It allows user to chat instantly and smoothly using Socket.io.
