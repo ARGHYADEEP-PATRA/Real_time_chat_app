@@ -13,7 +13,7 @@ It allows user to chat instantly and smoothly using Socket.io.
 
 
 ## Tech Stack
-**Frontend:** React, Tailwind CSS,DaisyUI
+**Frontend:** React, Tailwind CSS, DaisyUI
 **Backend:** Node.js, Express.js  
 **Database:** MongoDB  
 **Real-time Engine:** Socket.io
